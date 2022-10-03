@@ -1,0 +1,11 @@
+.img{
+    border-radius: 3px;
+    width: 100%;
+    min-height: 15rem;
+    max-height: 20rem;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.img:hover{
+    transform: scale(1.04);
+}
